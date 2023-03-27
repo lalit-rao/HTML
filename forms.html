@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <main>
+        <h4>Registration Form</h4>
+        <form action="/action.php">
+            <input type = "text" placeholder="username">
+            <br/>
+            <br/>
+            <input type = "password" placeholder="password">
+            <br/>
+            <br/>
+            <h5>
+                Select your Class
+            </h5>
+            <br/>
+            <label for="101">
+                <input type = "radio" value="Class XI" name="class" id="101">Class XI
+            </label>
+            <br/>
+            <label for="102">
+                <input type = "radio" value="Class XII" name="class" id="102">Class XII
+            </label>
+            <br/>
+            <br/>
+            <h5>
+                Select favourite subjects
+            </h5>
+            <label for="math">
+                <input type="checkbox" value="math" name="subjects" id="101">math
+            </label>
+            <br/>
+            <label for="physics">
+                <input type="checkbox" value="physics" name="subjects" id="102">physics
+            </label>
+            <br/>
+            <label for="chemistry">
+                <input type="checkbox" value="chemistry" name="subjects" id="103">chemistry
+            </label>
+            <br/>
+            <label for="computer science">
+                <input type="checkbox" value="computer science" name="subjects" id="104">computer science
+            </label>
+            <br/>
+            <br/>
+            Select your city
+            <select name="City" >
+                <option value="Chennai">Chennai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Andra Pradesh">Andra Pradesh</option>
+            </select>
+            <br/>
+            <br/>
+            Feedback
+            <br/>
+            <textarea name="Feedback" placeholder="Please enter your valuable feedback here" rows="5"></textarea>
+            <input type="submit">
+            
+        
+        
+    </form>
+    </main>
+    
+</body>
+</html>
